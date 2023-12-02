@@ -1,0 +1,64 @@
+<div class="col">
+    <div class="row m-3">
+        <div class="col-md-6 p-0">
+            <h1>Mouvement du stock</h1>
+        </div>
+        <div class="col-md-6 text-end">
+            <app-bouton-action></app-bouton-action>
+        </div>
+    </div>
+    <div class="col m-3">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="m-auto">
+                         <app-detail-mvstk-article></app-detail-mvstk-article>
+                    </div>
+                </button>
+              </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample" style="max-height: 300px; overflow-y: scroll;">
+                    <div class="accordion-body">
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                    </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- deuxième accordion -->
+
+        <div class="accordion" id="accordionExample1">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <div class="m-auto">
+                         <app-detail-mvstk-article></app-detail-mvstk-article>
+                    </div>
+                </button>
+              </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample1" style="max-height: 300px; overflow-y: scroll;">
+                    <div class="accordion-body">
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                        <app-detail-mvstk></app-detail-mvstk>
+                    </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-12 text-center">
+            <app-pagination></app-pagination>
+        </div>
+    </div>
+
+</div>
