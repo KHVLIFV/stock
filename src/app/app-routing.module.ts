@@ -7,6 +7,10 @@ import { StatistiquesComponent } from './composants/statistiques/statistiques.co
 import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
 import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
 import { PageMvstkComponent } from './pages/mvstk/page-mvstk/page-mvstk.component';
+import { PageClientComponent } from './pages/client/page-client/page-client.component';
+import { DetailFournisseurComponent } from './pages/fournisseur/detail-fournisseur/detail-fournisseur.component';
+import { NouveauClientFournisseurComponent } from './composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { PageCommandeClientFournisseurComponent } from './pages/commandes/page-commande-client-fournisseur/page-commande-client-fournisseur.component';
 
 const routes: Routes = [
   {
@@ -37,6 +41,30 @@ const routes: Routes = [
         path:'mvstk',
         component: PageMvstkComponent
       },
+      {
+        path:'client',
+        component: PageClientComponent
+      },
+      {
+        path:'nouveauclient',
+        component: NouveauClientFournisseurComponent
+      },
+      {
+        path:'commandesclient',
+        component: PageCommandeClientFournisseurComponent
+      },
+      {
+        path:'fournisseur',
+        component: DetailFournisseurComponent
+      },
+      {
+        path:'nouveaufournisseur',
+        component: NouveauClientFournisseurComponent
+      },
+      {
+        path:'commandesfournisseur',
+        component: PageCommandeClientFournisseurComponent
+      }
     ]
   }
 ];

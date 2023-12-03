@@ -18,6 +18,13 @@ import { PageMvstkComponent } from './pages/mvstk/page-mvstk/page-mvstk.componen
 import { DetailMvstkArticleComponent } from './composants/detail-mvstk-article/detail-mvstk-article.component';
 import { DetailMvstkComponent } from './composants/detail-mvstk/detail-mvstk.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetailClientFounisseurComponent } from './composants/detail-client-founisseur/detail-client-founisseur.component';
+import { PageClientComponent } from './pages/client/page-client/page-client.component';
+import { DetailFournisseurComponent } from './pages/fournisseur/detail-fournisseur/detail-fournisseur.component';
+import { NouveauClientFournisseurComponent } from './composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { DetailCommandeClientFournisseurComponent } from './composants/detail-commande-client-fournisseur/detail-commande-client-fournisseur.component';
+import { DetailCommandeComponent } from './composants/detail-commande/detail-commande.component';
+import { PageCommandeClientFournisseurComponent } from './pages/commandes/page-commande-client-fournisseur/page-commande-client-fournisseur.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +42,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NouvelArticleComponent,
     PageMvstkComponent,
     DetailMvstkArticleComponent,
-    DetailMvstkComponent
+    DetailMvstkComponent,
+    DetailClientFounisseurComponent,
+    PageClientComponent,
+    DetailFournisseurComponent,
+    NouveauClientFournisseurComponent,
+    DetailCommandeClientFournisseurComponent,
+    DetailCommandeComponent,
+    PageCommandeClientFournisseurComponent
   ],
   imports: [
     BrowserModule,
