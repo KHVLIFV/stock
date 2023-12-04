@@ -25,6 +25,7 @@ import { NouveauClientFournisseurComponent } from './composants/nouveau-client-f
 import { DetailCommandeClientFournisseurComponent } from './composants/detail-commande-client-fournisseur/detail-commande-client-fournisseur.component';
 import { DetailCommandeComponent } from './composants/detail-commande/detail-commande.component';
 import { PageCommandeClientFournisseurComponent } from './pages/commandes/page-commande-client-fournisseur/page-commande-client-fournisseur.component';
+import { NouvelleCommandeClientFournisseurComponent } from './composants/nouvelle-commande-client-fournisseur/nouvelle-commande-client-fournisseur.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PageCommandeClientFournisseurComponent } from './pages/commandes/page-c
     NouveauClientFournisseurComponent,
     DetailCommandeClientFournisseurComponent,
     DetailCommandeComponent,
-    PageCommandeClientFournisseurComponent
+    PageCommandeClientFournisseurComponent,
+    NouvelleCommandeClientFournisseurComponent
   ],
   imports: [
     BrowserModule,

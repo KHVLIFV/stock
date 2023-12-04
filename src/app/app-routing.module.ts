@@ -11,6 +11,7 @@ import { PageClientComponent } from './pages/client/page-client/page-client.comp
 import { DetailFournisseurComponent } from './pages/fournisseur/detail-fournisseur/detail-fournisseur.component';
 import { NouveauClientFournisseurComponent } from './composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
 import { PageCommandeClientFournisseurComponent } from './pages/commandes/page-commande-client-fournisseur/page-commande-client-fournisseur.component';
+import { NouvelleCommandeClientFournisseurComponent } from './composants/nouvelle-commande-client-fournisseur/nouvelle-commande-client-fournisseur.component';
 
 const routes: Routes = [
   {
@@ -54,6 +55,10 @@ const routes: Routes = [
         component: PageCommandeClientFournisseurComponent
       },
       {
+        path:'nouvellecommandeclient',
+        component: NouvelleCommandeClientFournisseurComponent
+      },
+      {
         path:'fournisseur',
         component: DetailFournisseurComponent
       },
@@ -64,7 +69,11 @@ const routes: Routes = [
       {
         path:'commandesfournisseur',
         component: PageCommandeClientFournisseurComponent
-      }
+      },
+      {
+        path:'nouvellecommandefournisseur',
+        component: NouvelleCommandeClientFournisseurComponent
+      },
     ]
   }
 ];
